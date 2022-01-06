@@ -1,0 +1,84 @@
+body {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  background: linear-gradient(to left, #FFFFFF, #d0ddff);
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* give more bootstrap responsiveness to overall page */
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid linear-gradient(to right, #FFFFFF, #d0ddff);
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 75px;
+  border-top: 2px solid transparent;
+}
+
+.hour {
+  background-color: #ffffff;
+  border-top-left-radius: 25%;
+  border-bottom-left-radius: 25%;
+  color: #000000;
+  font-weight: 600;
+  border-top: 1px solid #d0ddff;
+}
+
+.hour:hover {
+  font-size: 19px;
+  font-weight: 800;
+  transition: all .3s ease-in-out;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: black;
+  font-weight: bold;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: linear-gradient(to right, #1c03ff, #d0ddff);
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 35px;
+  transition: all .3s ease-in-out;
+}
