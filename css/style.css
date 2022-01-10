@@ -1,11 +1,9 @@
 body {
-  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-family: "Lucida Console", Courier, monospace;
   background: linear-gradient(to left, #FFFFFF, #d0ddff);
   font-size: 16px;
   line-height: 1;
 }
-
-/* give more bootstrap responsiveness to overall page */
 
 textarea{
   background: transparent;
@@ -18,10 +16,9 @@ textarea{
 
 .jumbotron {
   text-align: center;
+  letter-spacing: -1.5 px;
   background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid linear-gradient(to right, #FFFFFF, #d0ddff);
+  color: rgb(5, 7, 104);
 }
 
 .description {
@@ -30,20 +27,22 @@ textarea{
 
 .time-block{
   text-align: center;
+  box-shadow: 1.5px 1px;
   border-radius: 15px;
+  border-top: 1px solid transparent;
 }
 
 .row {
   white-space: pre-wrap;
-  height: 75px;
-  border-top: 2px solid transparent;
+  height: 75px; 
+  border-top: 1px solid transparent;  
 }
 
 .hour {
-  background-color: #ffffff;
-  border-top-left-radius: 25%;
-  border-bottom-left-radius: 25%;
-  color: #000000;
+  background: linear-gradient(to left, #2c39f3, #b4b4ee);
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 15%;
+  color: #ffffff;
   font-weight: 600;
   border-top: 1px solid #d0ddff;
 }
@@ -55,23 +54,23 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background: linear-gradient(to left, #aab1b6, #edeeee);
+  color: black;
+}
+
+.present {
+  background: linear-gradient(to left, #f35047, #ff837d);
   color: black;
   font-weight: bold;
 }
 
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
 .future {
-  background-color: #77dd77;
-  color: white;
+  background: linear-gradient(to left, #77dd77, #adf0ad);
+  color: black;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background: linear-gradient(to right, #1c03ff, #d0ddff);
@@ -80,5 +79,5 @@ textarea{
 
 .saveBtn i:hover {
   font-size: 35px;
-  transition: all .3s ease-in-out;
+  transition: all .2s linear;
 }
